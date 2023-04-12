@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Project</title>
+    <style>
+		@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+	  *{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: "Poppins", sans-serif;
+	  }
+	  body{
+		margin: 0;
+		padding: 0;
+		background: url('https://rb.gy/yeujhl') no-repeat;
+		background-size: cover;
+		height: 100vh;
+		overflow: hidden;
+	  }
+	  .navbar{
+		position: fixed;
+		height: 80px;
+		width: 100%;
+		top: 0;
+		left: 0;
+		background: rgba(173, 199, 228,0.9);
+	  }
+
+	  p {
+
+	  }
+	  .navbar .logo{
+		width: 430px;
+		height: auto;
+		padding: 10px 70px;
+		background-color:  rgb(226, 236, 247,0.8);
+	  }
+	  .navbar ul{
+		float: right;
+		margin-right: 20px;
+	  }
+	  .navbar ul li{
+		list-style: none;
+		margin: 0 8px;
+		display: inline-block;
+		line-height: 80px;
+	  }
+	  .navbar ul li input{
+		border: none;
+		background-color: rgba(173, 199, 228,0.9);
+		font-size: 20px;
+		font-family: helvetica;
+		color: rgb(0, 0, 0);
+		padding: 6px 13px;
+		text-decoration: none;
+		transition: .4s;
+	  }
+  
+	  
+	  .navbar ul li input:hover{
+		padding: 10px;
+		background: aquamarine;
+		  border: 1px solid rgb(26, 131, 131);
+		color: rgb(26, 131, 131);;
+		border-radius: 20px;
+	  }
+	  .center{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 97%;
+		background: rgba(173, 199, 228,0.9);
+		border-radius: 10px;
+	  }
+	  .center ol{
+		
+		margin-left: 5%;
+		margin-right: 5%;
+		font-weight: 400;
+		text-transform: uppercase;
+		font-size: 85%;
+		color: rgba(0, 0, 0, 0.9);
+		
+	  }
+	  .center form{
+		padding-top: 5px;
+		box-sizing: border-box;
+	  }
+	  form .txt_field{
+		position: relative;
+		margin: 30px 0;
+	  }
+	  .txt_field input{
+		width: 100%;
+		color: rgb(0, 0, 0);
+		padding: 0 5px;
+		height: 350px;
+		font-size: 16px;
+		border: none;
+		background: none;
+		outline: none;
+	  }
+	  .txt_field label{
+		position: absolute;
+		top: 50%;
+		left: 5px;
+		color: rgb(0, 0, 0);
+		transform: translateY(-50%);
+		font-size: 16px;
+		pointer-events: none;
+		transition: .5s;
+	  }
+	  .txt_field span::before{
+		content: '';
+		position: absolute;
+		top: 40px;
+		left: 0;
+		width: 0%;
+		height: 2px;
+		background: rgb(26, 131, 131);
+		transition: .5s;
+	  }
+	  .txt_field input:focus ~ label,
+	  .txt_field input:valid ~ label{
+		top: -5px;
+		color: aqua;
+	  }
+	  .txt_field input:focus ~ span::before,
+	  .txt_field input:valid ~ span::before{
+		width: 100%;
+	  }
+	  .pass{
+		margin: -5px 0 20px 5px;
+		color: aqua;
+		cursor: pointer;
+	  }
+	  .pass:hover{
+		text-decoration: underline;
+	  }
+	  .center input[type="submit"]{
+		width: 100%;
+		height: 50px;
+		border: 1px solid aquamarine;
+		background: rgba(173, 199, 228,0.9);
+		border-radius: 25px;
+		font-size: 18px;
+		color: #e9f4fb;
+		font-weight: 700;
+		cursor: pointer;
+		outline: none;
+	  }
+	  input[type="submit"]:hover{
+		background-color: aquamarine;
+		color: rgb(26, 131, 131);
+		border: 1px solid rgb(26, 131, 131);
+		transition: .5s;
+	  }
+	  .signup_link{
+		margin: 30px 0;
+		text-align: center;
+		font-size: 16px;
+		color: rgb(80, 172, 172);
+	  }
+	  .signup_link a{
+		color: aqua;
+		text-decoration: none;
+	  }
+	  .signup_link a:hover{
+		text-decoration: underline;
+	  }
+	  form
+	  {
+		padding: 6px;
+	  }
+	  u{
+		padding-bottom: 5px;
+	  }
+	  .b_btn
+	  {
+		padding-left: 120px;
+		padding-right: 120px;
+		padding-bottom: 20px;
+	  }
+
+	  .center ul li
+	  {
+		margin-left: 30px;
+		list-style: none;
+		font-size: 22px;
+		font-family: helvetica;
+		color: rgb(0, 0, 0);
+		padding: 6px 13px;
+		text-decoration: none;
+	  }
+
+	  .center
+	  {
+		padding: 3px;
+	  }
+		</style>
+	</head>
+   
+	
+	
+	
+	
+	<body>
+	  <nav class="navbar">
+		<img src="https://rb.gy/bnazrq" alt="AuthenticWorks" class="logo">
+				  <ul>
+			<li>
+			  <form method="post" action="/">
+				<input type="submit" value="Home">
+			  </form>
+			</li>
+  
+			<li>
+			  <form method="post" action="/about">
+				<input type="submit" value="About">
+			  </form>
+			</li>
+		  
+					  
+			<li>
+			  <form method="post" action="/about">
+				<input type="submit" value="Services">
+			  </form>
+			</li>
+					  
+			<li>
+			  <form method="post" action="/verify_product">
+				<input type="submit" value="QR Code Scanner">
+			  </form>
+			</li>
+					  
+			<li>
+			  <form method="post" action="/add_block">
+				<input type="submit" value="Login">
+			  </form>
+			</li>
+  
+				  </ul>
+			  </nav>
+    <div class="center">
+    <h3><u> REPORT for RealWe</u></h3>
+   <ol>
+	<li>Product name: RealWe PAD X11 <br>
+		ID: ABC123<br>
+date of manufacturing: 22/12/2022<br>
+proof of work: 72563429646.0<br>
+prev_hash: 0<br>
+current_hash: 000058e405cb6ca7850aa83f63b825e6b10301335b6d5f7a4adbdd02d149739b<br>
+ value:invald product</li>
+		 <br>
+		 <li>
+			Product name: RealWe PAD X7<br>
+			ID: ABC345<br>
+date of manufacturing: 22/12/2022<br>
+proof of work: 19272123112.0<br>
+prev_hash: 0000df864c8ca91999e7bfa51fc92b72e75f2cbf8ff692392dac3c67f6037735<br>
+current_hash: 0000767524920ddd1b0d2ae38a7ede6b1c4eba6704b2872124bffe3752415841<br>
+ value:invald products<br>
+		 </li>
+		 <br>
+		 <li>
+			Product name: RealWe PAD X6 <br>
+			ID: ABC123<br>
+date of manufacturing: 22/12/2022<br>
+proof of work: 5018612980.0<br>
+prev_hash: 000057881d8f1eca17d8a94e7113326ed16459c24507ac07cf26aebb594f007d<br>
+current_hash: 00007487236440512d31760e3cc1a3cf9c04e5ca2064bae24a446f4847910f77<br>
+ value:invald products<br>
+		 </li>
+		 <br>
+		 <li>
+			Product name: RealWe PAD X9 <br>
+			ID: ABC234<br>
+date of manufacturing: 22/12/2022<br>
+proof of work: 221494949.0<br>
+prev_hash: 00007487236440512d31760e3cc1a3cf9c04e5ca2064bae24a446f4847910f77<br>
+current_hash: 0000df864c8ca91999e7bfa51fc92b72e75f2cbf8ff692392dac3c67f6037735<br>
+ value:invald products
+
+
+		 </li>
+   </ol>
+</div>
+</div>
+</body>
+</html>

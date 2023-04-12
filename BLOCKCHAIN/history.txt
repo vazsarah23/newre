@@ -1,0 +1,21 @@
+
+ID: ABCpadx11
+date of manufacturing: 23/3/23
+proof of work: 315021773828.0
+prev_hash: 0000fe94b1badd119a9b47001d2dfb070623b4762df6396903866bca92316102
+current_hash: 0000c180440677372622e1d36c5038f8117ceccd833a9f9caf1c025f7b44c402
+ value:invald projects
+
+ID: ABC234
+date of manufacturing: 22/12/2022
+proof of work: 617728315.0
+prev_hash: 0
+current_hash: 0000a919439a16bdbdaf873e5845c6877be90502454c4bc04eb19b67ad568486
+ value:block found
+
+ID: ABC234
+date of manufacturing: 22/12/2022
+proof of work: 617728315.0
+prev_hash: 0
+current_hash: 0000a919439a16bdbdaf873e5845c6877be90502454c4bc04eb19b67ad568486
+ value:invald projects

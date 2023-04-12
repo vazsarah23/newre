@@ -1,0 +1,30 @@
+**************************-block 1-*************************
+ID: ABC123
+name: REALME PAD X6
+price: 8999.0
+date of manufacturing: 22/12/2022
+proof of work: 25277847097.0
+prev_hash: 0
+current_hash: 0000984285ef45c88607b0a8f2bfead6df914c6677fb6bff54dcf6f5da88a436
+ ************************************************************
+
+**************************-block 2-*************************
+ID: ABC123
+name: REALME PAD X6
+price: 8999.0
+date of manufacturing: 22/12/2022
+proof of work: 274632621914.0
+prev_hash: 0000984285ef45c88607b0a8f2bfead6df914c6677fb6bff54dcf6f5da88a436
+current_hash: 0000f493f2f2ac129a6cac2f888be844d01935333e175ab77d8132f6e8cb2085
+ ************************************************************
+
+**************************-block 3-*************************
+ID: ABC123
+name: REALME PAD X6
+price: 8999.0
+date of manufacturing: 22/12/2022
+proof of work: 599983037.0
+prev_hash: 0000f493f2f2ac129a6cac2f888be844d01935333e175ab77d8132f6e8cb2085
+current_hash: 0000879e0650f1cdcc39e6fe833cc9d2576b0bc16784e24b1e387e88e1c15484
+ ************************************************************
+
